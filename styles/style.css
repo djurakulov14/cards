@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gilroy';
+}
+
+.header {    
+    height: 70px;
+    width: 1920px;
+    background: #F0F0F0;
+    margin-bottom: 45px;
+}
+
+.container1 {
+    height: fit-content;
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.headLeft, .headRight{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.email {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0047FF;
+}
+
+.main, .wallets, .transactions {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.mywallets {
+    margin-top: 75px;
+}
+
+.mywallets a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #0047FF;
+}
+
+.mywall {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+
+.forcard {
+    display: flex;
+    gap: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 282px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+table {
+    width: 1200px;
+}
+
+thead {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B9C0D1;
+}
+
+.transactions p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    margin-top: 75px;
+}
+
+tr {
+    height: 20px;
+}
